@@ -1,3 +1,6 @@
+- 初回もしくはauth認証が切れた場合は以下のコマンドを実行して接続したいgoogleアカウントにログインする
+   - /opt/homebrew/bin/node build/index.js
+
 # Google Calendar MCP Server
 
 This is a Model Context Protocol (MCP) server that provides integration with Google Calendar. It allows LLMs to read, create, and manage calendar events through a standardized interface.
