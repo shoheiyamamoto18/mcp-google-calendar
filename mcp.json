@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "google-calendar": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/node",
+      "args": ["/Users/shoheiyamamoto/GitHub/mcp-servers/mcp-google-calendar/build/index.js"],
+      "env": {
+        "GCAL_SCOPES": "https://www.googleapis.com/auth/calendar.events"
+      }
+    }
+  }
+}
+
